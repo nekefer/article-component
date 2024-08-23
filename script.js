@@ -1,5 +1,5 @@
-const button = document.getElementById('share')
-const popup = document.getElementById('popup')
+const button = document.querySelector('.share')
+const popup = document.querySelector('.popup')
 
 button.addEventListener('click', () => {
     popup.classList.toggle('active')
