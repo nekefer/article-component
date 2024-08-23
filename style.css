@@ -242,7 +242,17 @@ article section .author-descritpion p {
         bottom: 95px;
         padding: 0.5rem;
         border-radius: 10px;
+        translate: 0 40px;
     }
+    .popup.active {
+        translate: 0  0;
+    
+    
+        @starting-style {
+            translate: 0 40px;
+        }
+    }
+
     .popup::after {
         content: '';
         position: absolute;
